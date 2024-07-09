@@ -1,0 +1,17 @@
+#faq .accordion-button span {
+  aspect-ratio: 1/1 !important;
+  height: 1rem;
+  border-radius: 2px;
+}
+@media (min-width: 992px) {
+  #faq .accordion-button span {
+    height: 1.5rem;
+  }
+}
+#faq .accordion-button:focus {
+  box-shadow: 0 0.5px 0 rgb(223, 223, 223);
+}
+#faq .accordion-button:not(.collapsed) span {
+  background: #c0304f;
+  color: #fff;
+}/*# sourceMappingURL=pagesFaq.css.map */
